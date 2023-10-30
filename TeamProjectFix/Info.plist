@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>내주변에 사건이 발생할때 알림! 알림사용을 허용해 주세요!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>위치사용을 허용해주세요!</string>
+</dict>
+</plist>

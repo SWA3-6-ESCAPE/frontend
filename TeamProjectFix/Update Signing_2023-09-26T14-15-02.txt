@@ -1,0 +1,59 @@
+
+Showing All Errors Only
+
+Repair target TeamProjectFix
+2023-09-26 05:15:03 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic addRepairForRepairable:]_block_invoke: Created new repair: <IDEProvisioningRepair: 0x600001f11ea0; repairable = <IDEProvisioningRepairInfo: 0x600000a46a30; repairableName='TeamProjectFixUITests', team='<IDEProvisioningDisambiguatableBasicTeam: 0x6000021d4900; teamID='88Q6J94N89', teamName='Eunju Sim (Personal Team)', teamType='Personal Team', username='energyseedstart@gmail.com', isFreeProvisioningTeam='1'>', machineName='CNU05의 iMac', machineID='00008103-000C35560C60C01E', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='com.zoo.TeamProjectFixUITests', appIDFeatures='<DVTPortalAppIDFeatures 0x600003c99b00: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0x600000bc8cf0:'com.apple.platform.iphoneos':<DVTFilePath:0x6000012d7480:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFixUITests'.'>>
+2023-09-26 05:15:03 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic repair:didFailWithError:]: 0x600001c5dc80 <IDEProvisioningRepair: 0x600001f0e760; repairable = <IDEProvisioningRepairInfo: 0x600000a06130; repairableName='TeamProjectFix', team='<IDEProvisioningDisambiguatableBasicTeam: 0x6000021d4900; teamID='88Q6J94N89', teamName='Eunju Sim (Personal Team)', teamType='Personal Team', username='energyseedstart@gmail.com', isFreeProvisioningTeam='1'>', machineName='CNU05의 iMac', machineID='00008103-000C35560C60C01E', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='com.zoo.TeamProjectFix', appIDFeatures='<DVTPortalAppIDFeatures 0x600003c94f40: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0x600000bc8cf0:'com.apple.platform.iphoneos':<DVTFilePath:0x6000012d7480:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFix'.'>>, error = Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'energyseedstart@gmail.com'." UserInfo={NSLocalizedFailureReason=Unable to log in with account 'energyseedstart@gmail.com'., NSLocalizedRecoverySuggestion=The login details for account 'energyseedstart@gmail.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000186e7b0; username='energyseedstart@gmail.com'>, NSUnderlyingError=0x600006b7de30 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+    creationTimestamp = "2023-09-26T05:15:03Z";
+    httpCode = 200;
+    protocolVersion = QH65B2;
+    requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+    responseId = "8c7bede6-1e54-4c2e-bf27-bb7bb930192f";
+    resultCode = 1100;
+    resultString = "Your session has expired. Please log in.";
+    userLocale = "en_US";
+    userString = "Your session has expired. Please log in.";
+}, NSLocalizedDescription=Your session has expired. Please log in.}}}
+2023-09-26 05:15:03 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic _executeNextRepairIfNeeded]_block_invoke_2: Executing repair: <IDEProvisioningRepair: 0x600001f11ea0; repairable = <IDEProvisioningRepairInfo: 0x600000a46a30; repairableName='TeamProjectFixUITests', team='<IDEProvisioningDisambiguatableBasicTeam: 0x6000021d4900; teamID='88Q6J94N89', teamName='Eunju Sim (Personal Team)', teamType='Personal Team', username='energyseedstart@gmail.com', isFreeProvisioningTeam='1'>', machineName='CNU05의 iMac', machineID='00008103-000C35560C60C01E', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='com.zoo.TeamProjectFixUITests', appIDFeatures='<DVTPortalAppIDFeatures 0x600003c99b00: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0x600000bc8cf0:'com.apple.platform.iphoneos':<DVTFilePath:0x6000012d7480:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFixUITests'.'>>
+
+
+The operation couldn’t be completed. Unable to log in with account 'energyseedstart@gmail.com'. (The login details for account 'energyseedstart@gmail.com' were rejected.)
+
+Diagnose problem
+Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFix'.
+
+The operation couldn’t be completed. Unable to log in with account 'energyseedstart@gmail.com'. (The login details for account 'energyseedstart@gmail.com' were rejected.)
+
+
+Repair target TeamProjectFixUITests
+2023-09-26 05:15:03 +0000 IDEProvisioningMechanic: -[IDEProvisioningMechanic repair:didFailWithError:]: 0x600001c5dc80 <IDEProvisioningRepair: 0x600001f11ea0; repairable = <IDEProvisioningRepairInfo: 0x600000a46a30; repairableName='TeamProjectFixUITests', team='<IDEProvisioningDisambiguatableBasicTeam: 0x6000021d4900; teamID='88Q6J94N89', teamName='Eunju Sim (Personal Team)', teamType='Personal Team', username='energyseedstart@gmail.com', isFreeProvisioningTeam='1'>', machineName='CNU05의 iMac', machineID='00008103-000C35560C60C01E', certificatePurpose='<DVTPortalCertificatePurpose name: development, identifier: Xcode.Portal.CertificatePurpose.Development, automaticSelector: Apple Development>', destinationRequirement='(null)', profileType='Xcode.Portal.Profile.Type.iOS.Development', bundleID='com.zoo.TeamProjectFixUITests', appIDFeatures='<DVTPortalAppIDFeatures 0x600003c99b00: Features: {
+}, Containers: {
+}>', platform='<DVTPlatform:0x600000bc8cf0:'com.apple.platform.iphoneos':<DVTFilePath:0x6000012d7480:'/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform'>>', instigatingErrorsDescription='Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFixUITests'.'>>, error = Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'energyseedstart@gmail.com'." UserInfo={NSLocalizedFailureReason=Unable to log in with account 'energyseedstart@gmail.com'., NSLocalizedRecoverySuggestion=The login details for account 'energyseedstart@gmail.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000186e7b0; username='energyseedstart@gmail.com'>, NSUnderlyingError=0x600007458630 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+    creationTimestamp = "2023-09-26T05:15:03Z";
+    httpCode = 200;
+    protocolVersion = QH65B2;
+    requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+    responseId = "5220662b-66ea-45f4-9317-7d64ce866d4b";
+    resultCode = 1100;
+    resultString = "Your session has expired. Please log in.";
+    userLocale = "en_US";
+    userString = "Your session has expired. Please log in.";
+}, NSLocalizedDescription=Your session has expired. Please log in.}}}
+
+
+The operation couldn’t be completed. Unable to log in with account 'energyseedstart@gmail.com'. (The login details for account 'energyseedstart@gmail.com' were rejected.)
+
+Diagnose problem
+Xcode couldn't find any iOS App Development provisioning profiles matching 'com.zoo.TeamProjectFixUITests'.
+
+The operation couldn’t be completed. Unable to log in with account 'energyseedstart@gmail.com'. (The login details for account 'energyseedstart@gmail.com' were rejected.)
+
+
+
+Signing update finished    2023/09/26 2:15 PM    1.1 seconds
