@@ -83,7 +83,7 @@ struct ThirdView: View {
     }
     
     func fetchData() {
-        guard let url = URL(string: "http://193.122.103.176:8080/api/report") else {
+        guard let url = URL(string: "http://193.122.103.176/api/report") else {
             print("Invalid URL")
             return
         }
@@ -106,8 +106,8 @@ struct ThirdView: View {
                             
                             places = reports.compactMap { report in
                                 if let latitude = report.latitude, let longitude = report.longitude {
-                                    print("Latitude: \(latitude)")
-                                    print("Longitude: \(longitude)")
+//                                    print("Latitude: \(latitude)")
+//                                    print("Longitude: \(longitude)")
                                         
                                     return Place(location: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
                                 }

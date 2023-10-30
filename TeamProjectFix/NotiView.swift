@@ -1,10 +1,10 @@
+////
+////  NotiView.swift
+////  TeamProjectFix
+////
+////  Created by CNU on 2023/10/18.
+////
 //
-//  NotiView.swift
-//  TeamProjectFix
-//
-//  Created by CNU on 2023/10/18.
-//
-
 //import UserNotifications
 //
 //func showNotificationIfNeeded(userLocation: CLLocationCoordinate2D) {

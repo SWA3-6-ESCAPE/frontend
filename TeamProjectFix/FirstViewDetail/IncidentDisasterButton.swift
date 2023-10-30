@@ -15,6 +15,7 @@ struct IncidentDisasterButton: View {
         dismiss()
     }
     
+   
     var body: some View {
         NavigationStack {
             ZStack {
@@ -30,6 +31,11 @@ struct IncidentDisasterButton: View {
                             .frame(width: 300)
                     }
                     .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 5)
+                    .simultaneousGesture(TapGesture().onEnded {
+                            let id = MyLocationManager().postData(category1: false)
+                            print(id)
+                    })
+
                     
                     Button(action: pop) {
                         Image("siren")
@@ -48,6 +54,11 @@ struct IncidentDisasterButton: View {
                             .frame(width: 300)
                     }
                     .position(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 12)
+                    .simultaneousGesture(TapGesture().onEnded {
+                            let id = MyLocationManager().postData(category1: true)
+                            print(id)
+                    })
+
                 }
             }
         }

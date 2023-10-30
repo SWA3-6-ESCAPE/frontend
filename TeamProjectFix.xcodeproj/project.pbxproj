@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3126E7652AEFE0CD0069690D /* MyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126E7642AEFE0CD0069690D /* MyLocationManager.swift */; };
 		F3B234AB2ADF72C000995262 /* NotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B234AA2ADF72C000995262 /* NotiView.swift */; };
 		F3B310542AC29B0A00C6DD95 /* TeamProjectFixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B310532AC29B0A00C6DD95 /* TeamProjectFixApp.swift */; };
 		F3B310562AC29B0A00C6DD95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B310552AC29B0A00C6DD95 /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3126E7642AEFE0CD0069690D /* MyLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationManager.swift; sourceTree = "<group>"; };
 		F3B234AA2ADF72C000995262 /* NotiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiView.swift; sourceTree = "<group>"; };
 		F3B310502AC29B0A00C6DD95 /* TeamProjectFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamProjectFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B310532AC29B0A00C6DD95 /* TeamProjectFixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProjectFixApp.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3126E7632AEFE0A40069690D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3126E7642AEFE0CD0069690D /* MyLocationManager.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		F3B310472AC29B0A00C6DD95 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +132,7 @@
 				F3B310552AC29B0A00C6DD95 /* ContentView.swift */,
 				F3B234AA2ADF72C000995262 /* NotiView.swift */,
 				F3B3107D2AC29B7200C6DD95 /* FirstView.swift */,
+				3126E7632AEFE0A40069690D /* utils */,
 				F3B310932AC29F1D00C6DD95 /* FirstViewDetail */,
 				F3B3107F2AC29B8C00C6DD95 /* SecondView.swift */,
 				F3B310922AC29EE500C6DD95 /* SecondViewDetail */,
@@ -316,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3126E7652AEFE0CD0069690D /* MyLocationManager.swift in Sources */,
 				F3B310882AC29C9100C6DD95 /* AppDelegate.swift in Sources */,
 				F3B310862AC29C5900C6DD95 /* Write.swift in Sources */,
 				F3B310902AC29D5D00C6DD95 /* IncidentSelection.swift in Sources */,
